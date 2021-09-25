@@ -28,6 +28,7 @@ body{
     color: white;
     border-radius: 0.5rem;
 }
+
 .link{
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -36,6 +37,11 @@ body{
     border: 1px solid  var(--primary-color);
     border-radius: 0.5rem;
     color: var(--primary-color);
+
+}
+.container .section a :hover{
+    background-color: white;
+    border: 1px solid var(--primary-color);
 
 }
 
